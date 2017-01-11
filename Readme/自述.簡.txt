@@ -1,0 +1,554 @@
+##########################################################################
+#   0.0   -   基本信息
+##########################################################################
+工具会修改启动项，你需要禁用/卸载某些防病毒软件。
+
+基于 .NET Framework 4.0 框架
+
+下载 .NET Framework 4.0 框架: http://www.microsoft.com/zh-cn/download/details.aspx?id=17718
+
+By R@1n.
+
+在哪里可以找到我们 :
+- 在 Twitter 上: @RainReLoader
+
+
+
+##########################################################################
+#   0.1   -   索引
+##########################################################################
+01. 还原系统
+02. 激活状态
+03. 激活方法
+04. 更新说明
+05. Windows 条约
+06. Office 条约
+07. 主题 / 调试 / 预激活
+08. 常见问题
+09. 法律声明
+10. 感谢名单
+##########################################################################
+
+
+
+##########################################################################
+#   01   -   还原系统
+##########################################################################
+加载失败？ 按照以下步奏操作。
+
+* 从Windows光盘中启动
+* 按住SHIFT键，然后按F10
+* 输入 "bootsect.exe /nt60 SYS /force" (无引号)
+* 重新启动电脑
+* 运行上面步骤后输入 "sfc /scannow" (无引号) 以恢复可能已损坏的文件
+
+======
+注意：如果命令 "bootsect.exe /nt60 ALL /force" 后还不能正确还原Windows, 请确保您没有添加任何额外的设备 (USB 或其他)，然后再试。
+
+======
+注意2:开机后在你的 BIOS 屏幕后按 'R'键。如果你成功了，你会看到你的引导界面. 从中选择"boot without a SLIC" 或 "Fai boot senza SLIC"。
+
+
+
+##########################################################################
+#   02   -   激活状态
+##########################################################################
+你不知道是否是正版的Windows情况下，请根据以下步骤操作。
+
+* 打开浏览器，然后进入网页：http://www.microsoft.com/genuine/validate/
+
+
+
+##########################################################################
+#   03   -   激活方法
+##########################################################################
+程序由 R@1n 提供各种激活方法。
+
+* AntiWPA激活方法，激活(Windows XP)
+* OEM    激活方法，激活(Windows Vista, Windows 7, Windows Server 2008 (R2), Windows Server 2012 (R2), Windows Server 2016 RTM)
+* KMS    激活方法，激活(Windows Vista, Windows 7, Windows 8.0, Windows 8.1, Windows 10, Windows Server 2008 (R2), Windows Server 2012 (R2), Windows Server 2016 RTM)
+
+======
+注: Re-Loader工具使用KMS方法可以激活Office 2010,Office 2013和Office 2016。
+
+
+
+##########################################################################
+#   04   -   更新说明
+##########################################################################
+Versione 2.6 Final (14/08/2016)
+* Aggiunta traduzione spagnola (grazie -=4lfre1re=-).
+* I'm back on Twitter with the account @Ra1nReLoader This is my original account! other accounts are fake! be careful!
+* I think of a great revolution, expect surprises in the coming weeks.
+
+Versione 2.5 Final (10/08/2016)
+* Aggiornate chiavi Windows 10 Enterprise LTSB e LTSB (N).
+* Aggiunta traduzione spagnola (grazie -=4lfre1re=-).
+
+Versione 2.4 Final (30/07/2016)
+* Sostituito supporto da Windows Server 2016 Preview con RTM.
+* Aggiunto supporto per Edizione Windows Server 2016 RTM: ServerStandard, ServerDatacenter, ServerAzureCor, ServerSolution, ServerCloudStorage.
+
+Versione 2.3 Final (19/03/2016)
+* Velocizzato processo di caricamento.
+
+Versione 2.2 Final (19/01/2016)
+* Ancora un Fix nella fase di attivazione OEM.
+* Velocizzato ulteriormento processo Attivazione Win7 OEM.
+
+Versione 2.1 Final (18/01/2016)
+* Fixato un problema con le attivazioni OEM.
+
+Versione 2.0 Final (18/01/2016)
+* Aggiunta lingua polacca (grazie a Mr.T).
+* Aggiornato Inject SLIC.
+* Aggiunto supporto partizioni OEM.
+* Pulizia R@1nbow.
+* Ora esistono solo 2 metodi per l'inject dello SLIC, il metodo ALTERNATIVE, è lo SLIC 2.3 Dell di DAZ.
+* Sostituito il bootloader Zsmin 0.97 con un OpenLoader più recente, ora lo SLIC può essere sostituito manualmente.
+* Fix Minori.
+
+Versione 2.0 RC 6 (26/12/2015)
+* Fixato un problema di ridondanza riconoscimento Office (in alcuni casi non faceva partire l'interfaccia) Grazie a LoLLo.
+* Fix Minori.
+
+Versione 2.0 RC 5 (24/12/2015)
+* Aggiunto tema per ipovedenti, è visualizzabile solo con temi di contrasto elevato.
+* Fixato un problema con variabili globali.
+* Buone Feste (a chi festeggia).
+
+Versione 2.0 RC 4 (18/12/2015)
+* Fixato un problema che capitava quando lo strumento non riusciva a leggere correttamente un file xml.
+
+Versione 2.0 RC 3 (16/12/2015)
+* Aggiunto supporto per copie C2R Office 2013 e Office 2010.
+* Velocizzato algoritmo ricezione informazioni Office.
+* Aggiunto supporto 2019 per attivazioni Windows XP.
+* Fix minori.
+
+Versione 2.0 RC 2 (04/12/2015)
+* Cambiato argomento da /DisableMicroKeylogger a /DisableTelemetry.
+* Aggiunta lingue Serbian, Korean, Indonesian.
+* Fix minori.
+
+Versione 2.0 RC 1 (24/11/2015)
+* Aggiornato DisableMicroKeylogger (telemetry) grazie a Nummer (su Twitter @nummerok).
+* Fix minori.
+
+Versione 2.0 beta 2 (15/11/2015)
+* Aumentata sicurezza.
+* Ottimizzata ricerca partizione inject SLIC.
+* Fix minori.
+
+2.0 beta版 (04/11/2015)
+* 更新了UI。
+* 更新Office安装路径的识别算法。
+* 启用KMS正版默认验证。
+* 增加对Win7 OEM激活支持: 旗舰版, 简易版, 家庭高级版。
+* 增加中文语言 (感谢紫寒)
+
+
+
+##########################################################################
+#   05   -   Windows条约
+##########################################################################
+产品密钥的使用，均由微软本身提供:  https://technet.microsoft.com/zh-cn/library/jj612867.aspx
+以下版本的 Windows 可以激活
+
+XP Windows
+* 家庭版 SP3
+* 专业版 SP3
+* 媒体中心版 2005 SP3
+
+Windows Vista
+* 企业
+* 企业 N
+* 业务
+* 业务 N
+* 简易版
+* 家庭普通版
+* 家庭普通版 N
+* 家庭高级版
+* 旗舰版
+
+Windows 7
+* 企业
+* 企业 N
+* 企业 E
+* 简易版
+* 简易版 E
+* 家庭普通版
+* 家庭高级版
+* 家庭高级版 E
+* 专业版
+* 专业版 N
+* 旗舰版
+* 旗舰版 E
+* 嵌入式 POS
+* 嵌入式
+* 嵌入式 薄 PC
+
+Windows 8
+* 企业版
+* 企业版 N
+* 核心版
+* 核心版 N
+* ARM 内核版
+* 国家特定的核心版
+* 单语言核心版
+* 专业版
+* 专业版 WMC
+* 专业版 N
+
+Windows 8.1
+* 企业版
+* 企业版 N
+* 专业版
+* 专业版 N
+* 专业版 WMC
+* 核心版
+* 核心连接版
+* 核心连接版 N
+* 核心连接单语言版
+* 核心连接特定国家版
+* 专业学生版
+* 专业学生版 N
+* 内核版 ARM 
+* 内核版 N
+* 单语言核心版
+* 国家特定的核心版
+* 嵌入式工业版 A
+* 嵌入式工业版 E
+* 嵌入系工业版
+
+Windows 10
+* 专业版
+* 专业版 N
+* 教育版
+* 教育版 N
+* 企业版
+* 企业版 N
+* 企业版 2015 LTSB
+* 企业版 2015 LTSB N
+* 家庭版
+* 家庭版 N
+* 家庭版单语言版
+* 家庭特定版
+||//Win10 预发布\\||
+* 家庭版
+* 家庭版 N
+* 家庭版单语言版
+* 家庭特定版
+* 学生专业版
+* 学生专业版 N
+* 专业版 2015 LTSB
+* 专业版 2015 LTSB N
+* 家庭版 ARM
+* 专业版 WMC
+
+Windows Server 2008
+* 数据中心版
+* 数据中心版 V
+* 企业版
+* 企业版 V
+* 企业版 IA64
+* 标准版
+* 标准版 V
+* 计算机群集
+* 网页版
+* 小型企业标准版
+* 基础版
+* 家庭标准版
+* 解决方案版
+* 家庭高级版
+
+Windows Server 2008 R2
+* 数据中心版
+* 企业版
+* 企业版 IA64
+* 标准版
+* 嵌入式解决方案版
+* HPC版
+* 网页版
+* 小型企业高级版
+* 小型企业标准版
+* 存储标准版
+
+Windows Server 2012
+* 数据中心版
+* 标准版
+* ServerMultiPointPremium
+* ServerMultiPointStandard
+* ServerSolution
+* 嵌入式解决方案版
+* 存储标准版
+* 存储工作组版
+
+(心塞，不翻译了。。。)
+
+Windows Server 2012 R2
+* ServerStandardCore
+* ServerStandard
+* ServerDatacenterCore
+* ServerDatacenter
+* SolutionCore
+* Solution
+* ServerCloudStorageCore
+* ServerCloudStorage
+* ServerStorageStandard
+
+(心塞，不翻译了。。。)
+
+
+Windows Server 2016 RTM
+* ServerStandard
+* ServerDatacenter
+* ServerAzureCor
+* ServerSolution
+* ServerCloudStorage
+
+(心塞，不翻译了。。。)
+
+##########################################################################
+#   06   -   Office条约
+##########################################################################
+产品密钥的使用，均由微软本身提供: (Office 2013) https://technet.microsoft.com/zh-cn/library/dn385360.aspx
+以下版本的 Office 可以激活
+
+Office 2010
+* Access
+* Excel
+* Groove
+* InfoPath
+* OneNote
+* Outlook
+* PowerPoint
+* ProjectPro
+* ProjectStd
+* ProPlus
+* Publisher
+* Standard
+* VisioPrem
+* VisioPro
+* VisioStd
+* Word
+
+Office 2013
+* Access
+* Excel
+* InfoPath
+* Lync
+* OneNote
+* Outlook
+* PowerPoint
+* ProjectPro
+* ProjectStd
+* ProPlus
+* Publisher
+* Standard
+* VisioPro
+* VisioStd
+* Word
+
+Office 2016 / 365
+* Access
+* Excel
+* OneNote
+* Outlook
+* PowerPoint
+* ProjectPro
+* ProjectStd
+* ProPlus
+* Publisher
+* Skype for Business
+* Standard
+* VisioPro
+* VisioStd
+* Word
+
+
+
+##########################################################################
+#   07   -   主题 / 调试 / 预激活
+##########################################################################
+以下参数可使用Re-Loader进行调用，可使用在调试或预激活下。
+
+/ActAuto
+同时激活Windows和Office 2016/2013/2010
+
+/ActWindows
+激活Windows
+
+/ActOffice
+激活Office 2016/2013/2010
+
+/ActOffice14
+仅激活Office 2010.
+
+/ActOffice15
+仅激活Office 2013.
+
+/ActOffice16
+仅激活Office 2016.
+
+/UninstallKMS
+卸载KMS
+
+/UninstallOEM
+卸载OEM SLIC和安装序列号
+
+/UninstallWPA
+卸载AntiWPA(XP)
+
+/NoRestart
+在需要时不重新启动
+
+/RestorePoint
+在使用Re-Loader之前创建系统还原点
+
+/RemoveWatermark
+从Windows中删除水印（需要重新启动）
+
+/DisableTelemetry
+禁用微软键盘记录
+
+/SLICert=
+手动选择SLIC/证书安装
+示例: Re-Loader.exe /SLICert="Dell"
+
+/PK=
+手动选择产品密钥
+示例: Re-Loader.exe /PK="HP"
+
+/ForceMethod=
+如果你想使用另外的KMS服务器地址激活Windows
+示例: Re-Loader.exe /Force="KMS"
+
+/Logo=
+在同一个文件夹中有文件"OEMLogo" (不含引号)的话，Re-Loader会将Logo.bmp或Logo.reg进行替换
+
+/DumpOEM
+另存Windows Vista / 7的Slic、证书和序列号
+
+/LoaderMode=
+你可以使用Default, Alternative, Forceful, Old (例如: /LoaderMode="Default")，不同的方法来进行OEM激活
+
+/CheckActivationStatus
+检查Windows和Office的激活状态
+
+/ApplicationIntegrityCheck
+检查Re-Loader的完整性
+
+/BackupActivation
+激活后在桌面上创建一个备份文件夹包含Microsoft产品的激活备份
+
+/FindPID
+查找本地计算机上Windows和Office的产品密钥，并进行 PID 检查
+
+/PreserveSLIC
+保留系统上已经存在的SLIC
+
+
+
+======
+注1: 请先准备.NET Framework 4.0 框架
+======
+
+======
+使用示例 /Logo 1 : Re-Loader.exe /Logo="AutoDetect"
+使用示例 /Logo 2 : Re-Loader.exe /Logo="VMWare" (强制安装VMWare的logo)
+
+======
+注2: 使用OEM激活将文件中的脚本"SetupComplete.cmd"放入"X:\sources\$OEM$\$$\SETUP\SCRIPTS"中，来让Windows安装时激活
+
+/?
+命令可以显示Re-Loader的使用方法
+
+
+
+##########################################################################
+#   08   -   常见问题
+##########################################################################
+0.  Windows更新：
+问：使用该程序后，我可以安装微软系统更新吗？
+答：暂时可以。
+
+1.  永久性激活:
+问: 这个程序会让微软的产品激活永久吗?
+答: 产品可以使用KMS进行每分钟连接KMS激活即可，AntiWPA和OEM方式是永远被激活的。
+
+2.  计划任务
+Q:  180天之后不会主动激活怎么办？
+A:  保持程序开机自启动，设置激活时间为每1分钟。
+
+3.  报毒
+Q:  我的杀毒软件好像神经了？
+A:  不是官方下载的，很有可能被修改过。我们网站的下载的话很有可能是误报。
+
+4.  在线/离线
+Q:  我需要联网之后再运行这个程序吗？
+A:  不需要，但是要确认机器有活动链接。
+
+5.  产品处于未激活状态
+Q:  我用过这个程序来激活了，但是不能激活，为何？
+A:  可能性太多，先确认产品在不在清单里面，然后很有可能和其他的产品进行冲突的。
+
+6.  语言
+Q:  支持哪些语言？
+A:  所有的语言都支持！在语言栏目中目前只有几种语言，但是不影响使用。
+
+
+
+##########################################################################
+#   09   -   法律声明
+##########################################################################
+NOTE LEGALI: Re-Loader, Office预激活包, OEM Logo包。
+
+此程序已创建，"最终用户"可以受益于它不拥有必需的许可证和原始软件。
+R@1n,相信每个人都应该有机会来测试它，你可以备份你的许可证。
+
+下面很多就不细说。
+反正就是，提提倡用盗版，本程序学习和测试用。
+
+请各位遵守！！！
+请各位遵守！！！
+请各位遵守！！！
+
+
+
+##########################################################################
+#   10   -   感谢名单
+##########################################################################
+感谢: QAD, xinso, Hotbird64, nonosense, Nosferati87, Mikmik38, Cynecx, heldigard, Daz, Alphawaves的工作及支持。
+
+感谢下面一直支持的人：
+
+- fullstuff
+- Miky70
+- Zanna
+
+感谢翻译：
+
+- azroach (English)
+- CraftByte (Slovenian)
+- Behdad Boujari (Persian)
+- roonney (Portuguese)
+- vanhoivo (Vietnamese)
+- Ripdevil (Deutsch)
+- BL3D1 (Albanian)
+- alnaloty (Arabic)
+- Phobos (Russian)
+- jordan4x (French)
+- WebMan (Romanian)
+- Yaron.S (Hebrew)
+- zihan (Chinese)
+- agasoft (Serbian)
+- mireado (Korean)
+- GlgApr (Indonesian)
+- Ercan KO?AK (Turkish)
+- -=4lfre1re=- (Spanish)
+
+网站找我: http://forums.mydigitallife.info/
+Twitter找我: @RainReLoader
+
+Twitter: @RainReLoader

@@ -1,0 +1,554 @@
+##########################################################################
+#   0.0   -   °ò¥»«H®§
+##########################################################################
+¤u¨ã·|­×§ï±Ò°Ê¶µ¡A§A»Ý­n¸T¥Î/¨ø¸ü¬Y¨Ç¨¾¯f¬r³n¥ó¡C
+
+°ò©ó .NET Framework 4.0 ®Ø¬[
+
+¤U¸ü .NET Framework 4.0 ®Ø¬[: http://www.microsoft.com/zh-cn/download/details.aspx?id=17718
+
+By R@1n.
+
+¦b­þ¸Ì¥i¥H§ä¨ì§Ú­Ì :
+- ¦b Twitter ¤W: @RainReLoader
+
+
+
+##########################################################################
+#   0.1   -   ¯Á¤Þ
+##########################################################################
+01. ÁÙ­ì¨t²Î
+02. ¿E¬¡ª¬ºA
+03. ¿E¬¡¤èªk
+04. §ó·s»¡©ú
+05. Windows ±ø¬ù
+06. Office ±ø¬ù
+07. ¥DÃD / ½Õ¸Õ / ¹w¿E¬¡
+08. ±`¨£°ÝÃD
+09. ªk«ßÁn©ú
+10. ·PÁÂ¦W³æ
+##########################################################################
+
+
+
+##########################################################################
+#   01   -   ÁÙ­ì¨t²Î
+##########################################################################
+¥[¸ü¥¢±Ñ¡H «ö·Ó¥H¤U¨B«µ¾Þ§@¡C
+
+* ±qWindows¥ú½L¤¤±Ò°Ê
+* «ö¦íSHIFTÁä¡AµM«á«öF10
+* ¿é¤J "bootsect.exe /nt60 SYS /force" (µL¤Þ¸¹)
+* ­«·s±Ò°Ê¹q¸£
+* ¹B¦æ¤W­±¨BÆJ«á¿é¤J "sfc /scannow" (µL¤Þ¸¹) ¥H«ì´_¥i¯à¤w·lÃaªº¤å¥ó
+
+======
+ª`·N¡G¦pªG©R¥O "bootsect.exe /nt60 ALL /force" «áÁÙ¤£¯à¥¿½TÁÙ­ìWindows, ½Ð½T«O±z¨S¦³²K¥[¥ô¦óÃB¥~ªº³]³Æ (USB ©Î¨ä¥L)¡AµM«á¦A¸Õ¡C
+
+======
+ª`·N2:¶}¾÷«á¦b§Aªº BIOS «Ì¹õ«á«ö 'R'Áä¡C¦pªG§A¦¨¥\¤F¡A§A·|¬Ý¨ì§Aªº¤Þ¾É¬É­±. ±q¤¤¿ï¾Ü"boot without a SLIC" ©Î "Fai boot senza SLIC"¡C
+
+
+
+##########################################################################
+#   02   -   ¿E¬¡ª¬ºA
+##########################################################################
+§A¤£ª¾¹D¬O§_¬O¥¿ª©ªºWindows±¡ªp¤U¡A½Ð®Ú¾Ú¥H¤U¨BÆJ¾Þ§@¡C
+
+* ¥´¶}ÂsÄý¾¹¡AµM«á¶i¤Jºô­¶¡Ghttp://www.microsoft.com/genuine/validate/
+
+
+
+##########################################################################
+#   03   -   ¿E¬¡¤èªk
+##########################################################################
+µ{§Ç¥Ñ R@1n ´£¨Ñ¦UºØ¿E¬¡¤èªk¡C
+
+* AntiWPA¿E¬¡¤èªk¡A¿E¬¡(Windows XP)
+* OEM    ¿E¬¡¤èªk¡A¿E¬¡(Windows Vista, Windows 7, Windows Server 2008 (R2), Windows Server 2012 (R2), Windows Server 2016 RTM)
+* KMS    ¿E¬¡¤èªk¡A¿E¬¡(Windows Vista, Windows 7, Windows 8.0, Windows 8.1, Windows 10, Windows Server 2008 (R2), Windows Server 2012 (R2), Windows Server 2016 RTM)
+
+======
+ª`: Re-Loader¤u¨ã¨Ï¥ÎKMS¤èªk¥i¥H¿E¬¡Office 2010,Office 2013©MOffice 2016¡C
+
+
+
+##########################################################################
+#   04   -   §ó·s»¡©ú
+##########################################################################
+Versione 2.6 Final (14/08/2016)
+* Aggiunta traduzione spagnola (grazie -=4lfre1re=-).
+* I'm back on Twitter with the account @Ra1nReLoader This is my original account! other accounts are fake! be careful!
+* I think of a great revolution, expect surprises in the coming weeks.
+
+Versione 2.5 Final (10/08/2016)
+* Aggiornate chiavi Windows 10 Enterprise LTSB e LTSB (N).
+* Aggiunta traduzione spagnola (grazie -=4lfre1re=-).
+
+Versione 2.4 Final (30/07/2016)
+* Sostituito supporto da Windows Server 2016 Preview con RTM.
+* Aggiunto supporto per Edizione Windows Server 2016 RTM: ServerStandard, ServerDatacenter, ServerAzureCor, ServerSolution, ServerCloudStorage.
+
+Versione 2.3 Final (19/03/2016)
+* Velocizzato processo di caricamento.
+
+Versione 2.2 Final (19/01/2016)
+* Ancora un Fix nella fase di attivazione OEM.
+* Velocizzato ulteriormento processo Attivazione Win7 OEM.
+
+Versione 2.1 Final (18/01/2016)
+* Fixato un problema con le attivazioni OEM.
+
+Versione 2.0 Final (18/01/2016)
+* Aggiunta lingua polacca (grazie a Mr.T).
+* Aggiornato Inject SLIC.
+* Aggiunto supporto partizioni OEM.
+* Pulizia R@1nbow.
+* Ora esistono solo 2 metodi per l'inject dello SLIC, il metodo ALTERNATIVE,  á lo SLIC 2.3 Dell di DAZ.
+* Sostituito il bootloader Zsmin 0.97 con un OpenLoader pi ä recente, ora lo SLIC pu ã essere sostituito manualmente.
+* Fix Minori.
+
+Versione 2.0 RC 6 (26/12/2015)
+* Fixato un problema di ridondanza riconoscimento Office (in alcuni casi non faceva partire l'interfaccia) Grazie a LoLLo.
+* Fix Minori.
+
+Versione 2.0 RC 5 (24/12/2015)
+* Aggiunto tema per ipovedenti,  á visualizzabile solo con temi di contrasto elevato.
+* Fixato un problema con variabili globali.
+* Buone Feste (a chi festeggia).
+
+Versione 2.0 RC 4 (18/12/2015)
+* Fixato un problema che capitava quando lo strumento non riusciva a leggere correttamente un file xml.
+
+Versione 2.0 RC 3 (16/12/2015)
+* Aggiunto supporto per copie C2R Office 2013 e Office 2010.
+* Velocizzato algoritmo ricezione informazioni Office.
+* Aggiunto supporto 2019 per attivazioni Windows XP.
+* Fix minori.
+
+Versione 2.0 RC 2 (04/12/2015)
+* Cambiato argomento da /DisableMicroKeylogger a /DisableTelemetry.
+* Aggiunta lingue Serbian, Korean, Indonesian.
+* Fix minori.
+
+Versione 2.0 RC 1 (24/11/2015)
+* Aggiornato DisableMicroKeylogger (telemetry) grazie a Nummer (su Twitter @nummerok).
+* Fix minori.
+
+Versione 2.0 beta 2 (15/11/2015)
+* Aumentata sicurezza.
+* Ottimizzata ricerca partizione inject SLIC.
+* Fix minori.
+
+2.0 betaª© (04/11/2015)
+* §ó·s¤FUI¡C
+* §ó·sOffice¦w¸Ë¸ô®|ªºÃÑ§Oºâªk¡C
+* ±Ò¥ÎKMS¥¿ª©ÀqìâÅçÃÒ¡C
+* ¼W¥[¹ïWin7 OEM¿E¬¡¤ä«ù: ºXÄ¥ª©, Â²©öª©, ®a®x°ª¯Åª©¡C
+* ¼W¥[¤¤¤å»y¨¥ (·PÁÂµµ´H)
+
+
+
+##########################################################################
+#   05   -   Windows±ø¬ù
+##########################################################################
+²£«~±KÆ_ªº¨Ï¥Î¡A§¡¥Ñ·L³n¥»¨­´£¨Ñ:  https://technet.microsoft.com/zh-cn/library/jj612867.aspx
+¥H¤Uª©¥»ªº Windows ¥i¥H¿E¬¡
+
+XP Windows
+* ®a®xª© SP3
+* ±M·~ª© SP3
+* ´CÅé¤¤¤ßª© 2005 SP3
+
+Windows Vista
+* ¥ø·~
+* ¥ø·~ N
+* ·~°È
+* ·~°È N
+* Â²©öª©
+* ®a®x´¶³qª©
+* ®a®x´¶³qª© N
+* ®a®x°ª¯Åª©
+* ºXÄ¥ª©
+
+Windows 7
+* ¥ø·~
+* ¥ø·~ N
+* ¥ø·~ E
+* Â²©öª©
+* Â²©öª© E
+* ®a®x´¶³qª©
+* ®a®x°ª¯Åª©
+* ®a®x°ª¯Åª© E
+* ±M·~ª©
+* ±M·~ª© N
+* ºXÄ¥ª©
+* ºXÄ¥ª© E
+* ´O¤J¦¡ POS
+* ´O¤J¦¡
+* ´O¤J¦¡ Á¡ PC
+
+Windows 8
+* ¥ø·~ª©
+* ¥ø·~ª© N
+* ®Ö¤ßª©
+* ®Ö¤ßª© N
+* ARM ¤º®Öª©
+* °ê®a¯S©wªº®Ö¤ßª©
+* ³æ»y¨¥®Ö¤ßª©
+* ±M·~ª©
+* ±M·~ª© WMC
+* ±M·~ª© N
+
+Windows 8.1
+* ¥ø·~ª©
+* ¥ø·~ª© N
+* ±M·~ª©
+* ±M·~ª© N
+* ±M·~ª© WMC
+* ®Ö¤ßª©
+* ®Ö¤ß³s±µª©
+* ®Ö¤ß³s±µª© N
+* ®Ö¤ß³s±µ³æ»y¨¥ª©
+* ®Ö¤ß³s±µ¯S©w°ê®aª©
+* ±M·~¾Ç¥Íª©
+* ±M·~¾Ç¥Íª© N
+* ¤º®Öª© ARM 
+* ¤º®Öª© N
+* ³æ»y¨¥®Ö¤ßª©
+* °ê®a¯S©wªº®Ö¤ßª©
+* ´O¤J¦¡¤u·~ª© A
+* ´O¤J¦¡¤u·~ª© E
+* ´O¤J¨t¤u·~ª©
+
+Windows 10
+* ±M·~ª©
+* ±M·~ª© N
+* ±Ð¨|ª©
+* ±Ð¨|ª© N
+* ¥ø·~ª©
+* ¥ø·~ª© N
+* ¥ø·~ª© 2015 LTSB
+* ¥ø·~ª© 2015 LTSB N
+* ®a®xª©
+* ®a®xª© N
+* ®a®xª©³æ»y¨¥ª©
+* ®a®x¯S©wª©
+||//Win10 ¹wµo§G\\||
+* ®a®xª©
+* ®a®xª© N
+* ®a®xª©³æ»y¨¥ª©
+* ®a®x¯S©wª©
+* ¾Ç¥Í±M·~ª©
+* ¾Ç¥Í±M·~ª© N
+* ±M·~ª© 2015 LTSB
+* ±M·~ª© 2015 LTSB N
+* ®a®xª© ARM
+* ±M·~ª© WMC
+
+Windows Server 2008
+* ¼Æ¾Ú¤¤¤ßª©
+* ¼Æ¾Ú¤¤¤ßª© V
+* ¥ø·~ª©
+* ¥ø·~ª© V
+* ¥ø·~ª© IA64
+* ¼Ð·Çª©
+* ¼Ð·Çª© V
+* ­pºâ¾÷¸s¶°
+* ºô­¶ª©
+* ¤p«¬¥ø·~¼Ð·Çª©
+* °òÂ¦ª©
+* ®a®x¼Ð·Çª©
+* ¸Ñ¨M¤è®×ª©
+* ®a®x°ª¯Åª©
+
+Windows Server 2008 R2
+* ¼Æ¾Ú¤¤¤ßª©
+* ¥ø·~ª©
+* ¥ø·~ª© IA64
+* ¼Ð·Çª©
+* ´O¤J¦¡¸Ñ¨M¤è®×ª©
+* HPCª©
+* ºô­¶ª©
+* ¤p«¬¥ø·~°ª¯Åª©
+* ¤p«¬¥ø·~¼Ð·Çª©
+* ¦sÀx¼Ð·Çª©
+
+Windows Server 2012
+* ¼Æ¾Ú¤¤¤ßª©
+* ¼Ð·Çª©
+* ServerMultiPointPremium
+* ServerMultiPointStandard
+* ServerSolution
+* ´O¤J¦¡¸Ñ¨M¤è®×ª©
+* ¦sÀx¼Ð·Çª©
+* ¦sÀx¤u§@²Õª©
+
+(¤ß¶ë¡A¤£Â½Ä¶¤F¡C¡C¡C)
+
+Windows Server 2012 R2
+* ServerStandardCore
+* ServerStandard
+* ServerDatacenterCore
+* ServerDatacenter
+* SolutionCore
+* Solution
+* ServerCloudStorageCore
+* ServerCloudStorage
+* ServerStorageStandard
+
+(¤ß¶ë¡A¤£Â½Ä¶¤F¡C¡C¡C)
+
+
+Windows Server 2016 RTM
+* ServerStandard
+* ServerDatacenter
+* ServerAzureCor
+* ServerSolution
+* ServerCloudStorage
+
+(¤ß¶ë¡A¤£Â½Ä¶¤F¡C¡C¡C)
+
+##########################################################################
+#   06   -   Office±ø¬ù
+##########################################################################
+²£«~±KÆ_ªº¨Ï¥Î¡A§¡¥Ñ·L³n¥»¨­´£¨Ñ: (Office 2013) https://technet.microsoft.com/zh-cn/library/dn385360.aspx
+¥H¤Uª©¥»ªº Office ¥i¥H¿E¬¡
+
+Office 2010
+* Access
+* Excel
+* Groove
+* InfoPath
+* OneNote
+* Outlook
+* PowerPoint
+* ProjectPro
+* ProjectStd
+* ProPlus
+* Publisher
+* Standard
+* VisioPrem
+* VisioPro
+* VisioStd
+* Word
+
+Office 2013
+* Access
+* Excel
+* InfoPath
+* Lync
+* OneNote
+* Outlook
+* PowerPoint
+* ProjectPro
+* ProjectStd
+* ProPlus
+* Publisher
+* Standard
+* VisioPro
+* VisioStd
+* Word
+
+Office 2016 / 365
+* Access
+* Excel
+* OneNote
+* Outlook
+* PowerPoint
+* ProjectPro
+* ProjectStd
+* ProPlus
+* Publisher
+* Skype for Business
+* Standard
+* VisioPro
+* VisioStd
+* Word
+
+
+
+##########################################################################
+#   07   -   ¥DÃD / ½Õ¸Õ / ¹w¿E¬¡
+##########################################################################
+¥H¤U°Ñ¼Æ¥i¨Ï¥ÎRe-Loader¶i¦æ½Õ¥Î¡A¥i¨Ï¥Î¦b½Õ¸Õ©Î¹w¿E¬¡¤U¡C
+
+/ActAuto
+¦P®É¿E¬¡Windows©MOffice 2016/2013/2010
+
+/ActWindows
+¿E¬¡Windows
+
+/ActOffice
+¿E¬¡Office 2016/2013/2010
+
+/ActOffice14
+¶È¿E¬¡Office 2010.
+
+/ActOffice15
+¶È¿E¬¡Office 2013.
+
+/ActOffice16
+¶È¿E¬¡Office 2016.
+
+/UninstallKMS
+¨ø¸üKMS
+
+/UninstallOEM
+¨ø¸üOEM SLIC©M¦w¸Ë§Ç¦C¸¹
+
+/UninstallWPA
+¨ø¸üAntiWPA(XP)
+
+/NoRestart
+¦b»Ý­n®É¤£­«·s±Ò°Ê
+
+/RestorePoint
+¦b¨Ï¥ÎRe-Loader¤§«e³Ð«Ø¨t²ÎÁÙ­ìÂI
+
+/RemoveWatermark
+±qWindows¤¤§R°£¤ô¦L¡]»Ý­n­«·s±Ò°Ê¡^
+
+/DisableTelemetry
+¸T¥Î·L³nÁä½L°O¿ý
+
+/SLICert=
+¤â°Ê¿ï¾ÜSLIC/ÃÒ®Ñ¦w¸Ë
+¥Ü¨Ò: Re-Loader.exe /SLICert="Dell"
+
+/PK=
+¤â°Ê¿ï¾Ü²£«~±KÆ_
+¥Ü¨Ò: Re-Loader.exe /PK="HP"
+
+/ForceMethod=
+¦pªG§A·Q¨Ï¥Î¥t¥~ªºKMSªA°È¾¹¦a§}¿E¬¡Windows
+¥Ü¨Ò: Re-Loader.exe /Force="KMS"
+
+/Logo=
+¦b¦P¤@­Ó¤å¥ó§¨¤¤¦³¤å¥ó"OEMLogo" (¤£§t¤Þ¸¹)ªº¸Ü¡ARe-Loader·|±NLogo.bmp©ÎLogo.reg¶i¦æ´À´«
+
+/DumpOEM
+¥t¦sWindows Vista / 7ªºSlic¡BÃÒ®Ñ©M§Ç¦C¸¹
+
+/LoaderMode=
+§A¥i¥H¨Ï¥ÎDefault, Alternative, Forceful, Old (¨Ò¦p: /LoaderMode="Default")¡A¤£¦Pªº¤èªk¨Ó¶i¦æOEM¿E¬¡
+
+/CheckActivationStatus
+ÀË¬dWindows©MOfficeªº¿E¬¡ª¬ºA
+
+/ApplicationIntegrityCheck
+ÀË¬dRe-Loaderªº§¹¾ã©Ê
+
+/BackupActivation
+¿E¬¡«á¦b®à­±¤W³Ð«Ø¤@­Ó³Æ¥÷¤å¥ó§¨¥]§tMicrosoft²£«~ªº¿E¬¡³Æ¥÷
+
+/FindPID
+¬d§ä¥»¦a­pºâ¾÷¤WWindows©MOfficeªº²£«~±KÆ_¡A¨Ã¶i¦æ PID ÀË¬d
+
+/PreserveSLIC
+«O¯d¨t²Î¤W¤w¸g¦s¦bªºSLIC
+
+
+
+======
+ª`1: ½Ð¥ý·Ç³Æ.NET Framework 4.0 ®Ø¬[
+======
+
+======
+¨Ï¥Î¥Ü¨Ò /Logo 1 : Re-Loader.exe /Logo="AutoDetect"
+¨Ï¥Î¥Ü¨Ò /Logo 2 : Re-Loader.exe /Logo="VMWare" (±j¨î¦w¸ËVMWareªºlogo)
+
+======
+ª`2: ¨Ï¥ÎOEM¿E¬¡±N¤å¥ó¤¤ªº¸}¥»"SetupComplete.cmd"©ñ¤J"X:\sources\$OEM$\$$\SETUP\SCRIPTS"¤¤¡A¨ÓÅýWindows¦w¸Ë®É¿E¬¡
+
+/?
+©R¥O¥i¥HÅã¥ÜRe-Loaderªº¨Ï¥Î¤èªk
+
+
+
+##########################################################################
+#   08   -   ±`¨£°ÝÃD
+##########################################################################
+0.  Windows§ó·s¡G
+°Ý¡G¨Ï¥Î¸Óµ{§Ç«á¡A§Ú¥i¥H¦w¸Ë·L³n¨t²Î§ó·s¶Ü¡H
+µª¡G¼È®É¥i¥H¡C
+
+1.  ¥Ã¤[©Ê¿E¬¡:
+°Ý: ³o­Óµ{§Ç·|Åý·L³nªº²£«~¿E¬¡¥Ã¤[¶Ü?
+µª: ²£«~¥i¥H¨Ï¥ÎKMS¶i¦æ¨C¤ÀÄÁ³s±µKMS¿E¬¡§Y¥i¡AAntiWPA©MOEM¤è¦¡¬O¥Ã»·³Q¿E¬¡ªº¡C
+
+2.  ­p¹º¥ô°È
+Q:  180¤Ñ¤§«á¤£·|¥D°Ê¿E¬¡«ç»ò¿ì¡H
+A:  «O«ùµ{§Ç¶}¾÷¦Û±Ò°Ê¡A³]¸m¿E¬¡®É¶¡¬°¨C1¤ÀÄÁ¡C
+
+3.  ³ø¬r
+Q:  §Úªº±þ¬r³n¥ó¦n¹³¯«¸g¤F¡H
+A:  ¤£¬O©x¤è¤U¸üªº¡A«Ü¦³¥i¯à³Q­×§ï¹L¡C§Ú­Ìºô¯¸ªº¤U¸üªº¸Ü«Ü¦³¥i¯à¬O»~³ø¡C
+
+4.  ¦b½u/Â÷½u
+Q:  §Ú»Ý­nÁpºô¤§«á¦A¹B¦æ³o­Óµ{§Ç¶Ü¡H
+A:  ¤£»Ý­n¡A¦ý¬O­n½Tìâ¾÷¾¹¦³¬¡°ÊÃì±µ¡C
+
+5.  ²£«~³B©ó¥¼¿E¬¡ª¬ºA
+Q:  §Ú¥Î¹L³o­Óµ{§Ç¨Ó¿E¬¡¤F¡A¦ý¬O¤£¯à¿E¬¡¡A¬°¦ó¡H
+A:  ¥i¯à©Ê¤Ó¦h¡A¥ý½Tìâ²£«~¦b¤£¦b²M³æ¸Ì­±¡AµM«á«Ü¦³¥i¯à©M¨ä¥Lªº²£«~¶i¦æ½Ä¬ðªº¡C
+
+6.  »y¨¥
+Q:  ¤ä«ù­þ¨Ç»y¨¥¡H
+A:  ©Ò¦³ªº»y¨¥³£¤ä«ù¡I¦b»y¨¥Äæ¥Ø¤¤¥Ø«e¥u¦³´XºØ»y¨¥¡A¦ý¬O¤£¼vÅT¨Ï¥Î¡C
+
+
+
+##########################################################################
+#   09   -   ªk«ßÁn©ú
+##########################################################################
+NOTE LEGALI: Re-Loader, Office¹w¿E¬¡¥], OEM Logo¥]¡C
+
+¦¹µ{§Ç¤w³Ð«Ø¡A"³Ì²×¥Î¤á"¥i¥H¨ü¯q©ó¥¦¤£¾Ö¦³¥²»Ýªº³\¥iÃÒ©M­ì©l³n¥ó¡C
+R@1n,¬Û«H¨C­Ó¤H³£À³¸Ó¦³¾÷·|¨Ó´ú¸Õ¥¦¡A§A¥i¥H³Æ¥÷§Aªº³\¥iÃÒ¡C
+
+¤U­±«Ü¦h´N¤£²Ó»¡¡C
+¤Ï¥¿´N¬O¡A´£´£­Ò¥Îµsª©¡A¥»µ{§Ç¾Ç²ß©M´ú¸Õ¥Î¡C
+
+½Ð¦U¦ì¿í¦u¡I¡I¡I
+½Ð¦U¦ì¿í¦u¡I¡I¡I
+½Ð¦U¦ì¿í¦u¡I¡I¡I
+
+
+
+##########################################################################
+#   10   -   ·PÁÂ¦W³æ
+##########################################################################
+·PÁÂ: QAD, xinso, Hotbird64, nonosense, Nosferati87, Mikmik38, Cynecx, heldigard, Daz, Alphawavesªº¤u§@¤Î¤ä«ù¡C
+
+·PÁÂ¤U­±¤@ª½¤ä«ùªº¤H¡G
+
+- fullstuff
+- Miky70
+- Zanna
+
+·PÁÂÂ½Ä¶¡G
+
+- azroach (English)
+- CraftByte (Slovenian)
+- Behdad Boujari (Persian)
+- roonney (Portuguese)
+- vanhoivo (Vietnamese)
+- Ripdevil (Deutsch)
+- BL3D1 (Albanian)
+- alnaloty (Arabic)
+- Phobos (Russian)
+- jordan4x (French)
+- WebMan (Romanian)
+- Yaron.S (Hebrew)
+- zihan (Chinese)
+- agasoft (Serbian)
+- mireado (Korean)
+- GlgApr (Indonesian)
+- Ercan KO?AK (Turkish)
+- -=4lfre1re=- (Spanish)
+
+ºô¯¸§ä§Ú: http://forums.mydigitallife.info/
+Twitter§ä§Ú: @RainReLoader
+
+Twitter: @RainReLoader

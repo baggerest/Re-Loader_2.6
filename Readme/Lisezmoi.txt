@@ -1,0 +1,595 @@
+##########################################################################
+# 0.0 - Informations générales
+##########################################################################
+Le Loader peut être détecté et bloqué par votre antivirus.
+CECI EST UN FAUX POSITIF. NOUS VOUS RECOMMANDONS DE DÉSACTIVER / DÉSINSTALLER VOTRE ANTIVIRUS PENDANT L'UTILISATION DU LOADER.
+
+Exigences .NET Framework 4.0.
+
+TÉLÉCHARGER .NET Framework 4.0: http://www.microsoft.com/it-it/download/details.aspx?id=17718
+
+Par R@1n.
+
+TROUVEZ-MOI :
+- Sur Twitter:RainReLoader
+
+
+##########################################################################
+# 0.1 - Index
+##########################################################################
+01. Restaurer
+02. Statut Activation
+03. Méthodes d'activation
+04. Changements dans les versions
+05. Traitement de Windows
+06. Traitement de Office
+07. Arguments / Debug / pré-activation
+08. FAQ
+09. Remarques juridiques
+10. Remerciements
+##########################################################################
+
+
+
+##########################################################################
+# 01 - Restaurer
+##########################################################################
+Si le loader échoue, suivez ces étapes.
+
+* ABootez à partir du CD d'installation de Windows
+* Maintenez la touche SHIFT et appuyez sur F10
+* Entrez "bootsect.exe / nt60 SYS / force" (sans les guillemets)
+* Redémarrez votre PC
+* Re-exécuter les étapes ci-dessus, mais saisissez "sfc / scannow" (sans les guillemets) pour restaurer des fichiers éventuellement corrompus.
+
+======
+NOTE: Si après la commande "bootsect.exe / nt60 ALL / force" Windows n'est pas réinitialisé correctement, veillez à débrancher tout appareil supplémentaire (USB ou autre), puis essayez à nouveau.
+
+======
+NOTE 2: Une alternative consiste à appuyer sur «R» après l'écran de votre BIOS. En cas de succès, vous verrez votre menu de démarrage. Dans le menu sélectionnez "démarrage sans SLIC" ou "Faire démarrage sans SLIC".
+
+##########################################################################
+# 02 - Statut d'activation
+##########################################################################
+Avez-vous installé le loader et vous ne savez pas si Windows est authentique? Suivez ces étapes.
+
+* Vérifiez en ligne en ouvrant Internet Explorer et tapez l'adresse http://www.microsoft.com/genuine/validate/
+
+
+##########################################################################
+# 03 - Méthodes d'activation
+##########################################################################
+Le loader par R@1n utilise diverses méthodes pour activer Windows.
+
+* Antiwpa (Windows XP)
+* OEM (Windows Vista, Windows 7, Windows Server 2008 (R2), Windows Server 2012 (R2), Windows Server 2016 RTM)
+* KMS (Windows Vista, Windows 7, Windows 8.0, Windows 8.1, Windows 10, Windows Server 2008 (R2), Windows Server 2012 (R2), Windows Server 2016 RTM)
+
+======
+NOTE: Le Re-Loader peut également activer Office 2010, Office 2013 et Office 2016, avec la méthode KMS.
+
+
+
+
+##########################################################################
+# 04 - Changements dans les versions
+##########################################################################
+Versione 2.6 Final (14/08/2016)
+* Aggiunta traduzione spagnola (grazie -=4lfre1re=-).
+* I'm back on Twitter with the account @Ra1nReLoader This is my original account! other accounts are fake! be careful!
+* I think of a great revolution, expect surprises in the coming weeks.
+
+Versione 2.5 Final (10/08/2016)
+* Aggiornate chiavi Windows 10 Enterprise LTSB e LTSB (N).
+* Aggiunta traduzione spagnola (grazie -=4lfre1re=-).
+
+Versione 2.4 Final (30/07/2016)
+* Sostituito supporto da Windows Server 2016 Preview con RTM.
+* Aggiunto supporto per Edizione Windows Server 2016 RTM: ServerStandard, ServerDatacenter, ServerAzureCor, ServerSolution, ServerCloudStorage.
+
+Versione 2.3 Final (19/03/2016)
+* Velocizzato processo di caricamento.
+
+Versione 2.2 Final (19/01/2016)
+* Ancora un Fix nella fase di attivazione OEM.
+* Velocizzato ulteriormento processo Attivazione Win7 OEM.
+
+Versione 2.1 Final (18/01/2016)
+* Fixato un problema con le attivazioni OEM.
+
+Versione 2.0 Final (18/01/2016)
+* Aggiunta lingua polacca (grazie a Mr.T).
+* Aggiornato Inject SLIC.
+* Aggiunto supporto partizioni OEM.
+* Pulizia R@1nbow.
+* Ora esistono solo 2 metodi per l'inject dello SLIC, il metodo ALTERNATIVE, è lo SLIC 2.3 Dell di DAZ.
+* Sostituito il bootloader Zsmin 0.97 con un OpenLoader più recente, ora lo SLIC può essere sostituito manualmente.
+* Fix Minori.
+
+Versione 2.0 RC 6 (26/12/2015)
+* Fixato un problema di ridondanza riconoscimento Office (in alcuni casi non faceva partire l'interfaccia) Grazie a LoLLo.
+* Fix Minori.
+
+Versione 2.0 RC 5 (24/12/2015)
+* Aggiunto tema per ipovedenti, è visualizzabile solo con temi di contrasto elevato.
+* Fixato un problema con variabili globali.
+* Buone Feste (a chi festeggia).
+
+Versione 2.0 RC 4 (18/12/2015)
+* Fixato un problema che capitava quando lo strumento non riusciva a leggere correttamente un file xml.
+
+Versione 2.0 RC 3 (16/12/2015)
+* Aggiunto supporto per copie C2R Office 2013 e Office 2010.
+* Velocizzato algoritmo ricezione informazioni Office.
+* Aggiunto supporto 2019 per attivazioni Windows XP.
+* Fix minori.
+
+Versione 2.0 RC 2 (04/12/2015)
+* Cambiato argomento da /DisableMicroKeylogger a /DisableTelemetry.
+* Aggiunta lingue Serbian, Korean, Indonesian.
+* Fix minori.
+
+Versione 2.0 RC 1 (24/11/2015)
+* Aggiornato DisableMicroKeylogger (telemetry) grazie a Nummer (su Twitter @nummerok).
+* Fix minori.
+
+Versione 2.0 beta 2 (15/11/2015)
+* Aumentata sicurezza.
+* Ottimizzata ricerca partizione inject SLIC.
+* Fix minori.
+
+Version 2.0 beta (04/11/2015)
+* Mettez à jour les graphiques.
+* Bureau d'installation du chemin de la reconnaissance de l'algorithme mis à jour.
+* Activer KMS Ticket Véritable Validation défaut.
+* Ajout du support d'activation Win7 OEM: UltimateE, StarterE, HomePremiumE.
+* Ajout de la langue chinoise (grazie a zihan)
+
+
+
+##########################################################################
+# 05 - Traitement de Windows
+##########################################################################
+Les clé de produit utilisées sont fournies par Microsoft lui-même: https://technet.microsoft.com/it-it/library/jj612867.aspx
+Les versions suivantes de Windows peuvent être activées avec ce chargeur
+
+
+Windows XP
+* Home Edition SP3
+* Professional SP3
+* Media Center Edition 2005 SP3
+
+Windows Vista
+* Enterprise
+* Enterprise N
+* Business
+* Business N
+* Starter
+* Home Basic
+* Home Basic N
+* Home Premium
+* Ultimate
+
+Windows 7
+* Enterprise
+* Enterprise N
+* Enterprise E
+* Starter
+* Starter E
+* Home Basic
+* Home Premium
+* Home Premium E
+* Professional
+* Professional N
+* Ultimate
+* Ultimate E
+* Embedded POS Ready
+* Embedded
+* Embedded Thin PC
+
+Windows 8
+* Enterprise
+* Enterprise N
+* Core
+* Core N
+* Core ARM
+* Core Country SpecIFic
+* Core Single Language
+* Professional
+* Professional WMC
+* Professional N
+
+Windows 8.1
+* Enterprise
+* Enterprise N
+* Professional
+* Professional N
+* Professional WMC
+* Core
+* Core Connected
+* Core Connected N 
+* Core Connected Single Language
+* Core Connected Country Specific
+* Professional Student
+* Professional Student N
+* Core ARM
+* Core N
+* Core Single Language
+* Core Country Specific
+* Embedded Industry A
+* Embedded Industry E
+* Embedded Industry
+
+Windows 10
+* Professional
+* Professional N
+* Education
+* Education N
+* Enterprise
+* Enterprise N
+* Enterprise 2015 LTSB
+* Enterprise 2015 LTSB N
+* Home
+* Home N
+* Home Single Language
+* Home Country Specific
+||//Win10 Pre-Release\\||
+* Home Connected
+* Home Connected N
+* Home Connected Single Language
+* Home Connected Country Specific
+* Professional Student
+* Professional Student N
+* Professional 2015 LTSB
+* Professional 2015 LTSB N
+* Home ARM
+* Professional WMC
+
+Windows Server 2008
+* ServerDatacenter
+* ServerDatacenterV
+* ServerEnterprise
+* ServerEnterpriseV
+* ServerEnterpriseIA64
+* ServerStandard
+* ServerStandardV
+* ServerComputeCluster
+* ServerWeb
+* ServerSBSStandard
+* ServerWinFoundation
+* ServerHomeStandard
+* ServerSolution
+* ServerHomePremium
+
+Windows Server 2008 R2
+* ServerDatacenter
+* ServerEnterprise
+* ServerEnterpriseIA64
+* ServerStandard
+* ServerEmbeddedSolution
+* ServerHPC
+* ServerWeb
+* ServerSBSPrime
+* ServerSBSStandard
+* ServerStorageStandard
+
+Windows Server 2012
+* ServerDatacenter
+* ServerStandard
+* ServerMultiPointPremium
+* ServerMultiPointStandard
+* ServerSolution
+* ServerWinFoundation
+* ServerStorageStandard
+* ServerStorageWorkgroup
+
+Windows Server 2012 R2
+* ServerStandardCore
+* ServerStandard
+* ServerDatacenterCore
+* ServerDatacenter
+* SolutionCore
+* Solution
+* ServerCloudStorageCore
+* ServerCloudStorage
+* ServerStorageStandard
+
+Windows Server 2016 RTM
+* ServerStandard
+* ServerDatacenter
+* ServerAzureCor
+* ServerSolution
+* ServerCloudStorage
+
+
+
+##########################################################################
+# 06 - Traitement de Office
+##########################################################################
+Les clés de produit utilisées, sont fournies par Microsoft lui-même: (Office 2013) https://technet.microsoft.com/it-it/library/dn385360.aspx
+Les versions suivantes de Windows peuvent être activées avec ce chargeur
+
+Office 2010
+* Access
+* Excel
+* Groove
+* InfoPath
+* OneNote
+* Outlook
+* PowerPoint
+* ProjectPro
+* ProjectStd
+* ProPlus
+* Publisher
+* Standard
+* VisioPrem
+* VisioPro
+* VisioStd
+* Word
+
+Office 2013
+* Access
+* Excel
+* InfoPath
+* Lync
+* OneNote
+* Outlook
+* PowerPoint
+* ProjectPro
+* ProjectStd
+* ProPlus
+* Publisher
+* Standard
+* VisioPro
+* VisioStd
+* Word
+
+Office 2016 / 365
+* Access
+* Excel
+* OneNote
+* Outlook
+* PowerPoint
+* ProjectPro
+* ProjectStd
+* ProPlus
+* Publisher
+* Skype for Business
+* Standard
+* VisioPro
+* VisioStd
+* Word
+
+
+
+##########################################################################
+# 07 - Arguments / Debug / pré-activation
+##########################################################################
+Les rguments sont tels que le Re-Loader est utilisé en mode Debug ou pré-activation.
+
+/ActAuto
+ Activer Windows et Office 2016/2013/2010 simultanément.
+
+/ActWindows
+ Activer Windows ne prenant pas en compte le facteur Genuine.
+
+/ActOffice
+ Activer Office 2016/2013/2010.
+
+/ActOffice14
+ Activer Office 2010.
+
+/ActOffice15
+ Activer Office 2013.
+
+/ActOffice16
+ Activer Office 2,016.
+
+/UninstallKMS
+ KMS Désinstaller.
+
+/UninstallOEM
+ Désinstaller OEM SLIC et l'installation d'essai de série.
+
+/UninstallWPA
+ Désinstallation Antiwpa.
+
+/Norestart
+ Il ne redémarre pas en cas de besoin.
+
+/RestorePoint
+ Créer un point de restauration avant d'utiliser le Re-Loader.
+
+/RemoveWatermark
+ Supprimer le filigrane pour Windows (nécessite un redémarrage).
+
+/DisableTelemetry
+ Désactiver Keylogger Microsoft.
+
+/SLICert=
+ Sélectionner manuellement le SLIC / Cert à installer.
+Exemple: Re-Loader.exe / SLICert = "Dell"
+
+/PK=
+ Sélectionner manuellement la clé de produit.
+Exemple: Re-Loader.exe / PK = "HP"
+
+/ForceMethod=
+ Si la version de Windows que vous exécutez fournit plus d'une méthode d'activation, vous pouvez forcer le Re-Loader à exécuter une autre méthode d'activation.
+Exemple: Re-Loader.exe / Force = "KMS"
+
+/Logo=
+ Si vous créez un dossier nommé "OEMLogo" (sans les guillemets) dans le même dossier où le Re-Loader est positionné, placez Logo.reg logo.bmp avec le Re-Loader et il va installer votre logo personnel.
+
+/DumpOEM
+ Créer un dump slic, certificat et de série de votre Windows Vista / 7.
+
+/LoaderMode=
+ Il prend des valeurs de la défaut, Alternatif, énergique, Vieux (Ex: / LoaderMode = "Default"). Vous pouvez l'utiliser pour une méthode d'activation OEM différent.
+
+/CheckActivationStatus
+ Vérifiez l'état d'activation de Windows et Office.
+
+/ApplicationIntegrityCheck
+ Vérifiez l'état de l'intégrité de la Re-Loader.
+
+/BackupActivation
+ BackupActivation Créez un dossier sur votre bureau qui contient la sauvegarde des activations de produits Microsoft trouvés.
+
+/FindPID
+ Retrouvez toutes les clés de produit Windows et Office présents sur la machine locale et effectue une Checker PID.
+
+/PreserveSLIC
+ Préserve toute SLIC déjà dans le système.
+
+
+
+======
+NOTE 1: Depuis la version 4.0.0, vous pouvez télécharger un ensemble de 121 échantillons de logos prêt à l'emploi.
+======
+
+======
+Exemple d'utilisation / Logo 1: / Logo Re-Loader.exe = "AutoDetect» (le Loader entre leurs bibliothèques si un logo est compatible avec le système)
+Exemple d'utilisation / Logo 2: / Logo Re-Loader.exe = "VMWare" (est contraint d'installer le logo VMWare)
+
+======
+NOTE 2: Pour l'utilisation du chargeur OEM, insérer un script nommé "SetupComplete.cmd" dans le chemin "X: \ sources \ $ OEM $ \ $$ \ Setup \ Scripts" dans le DVD de Windows.
+
+/?
+Afficher tous les arguments disponibles utilisés par Re-Loader.
+
+##########################################################################
+# 08 - FAQ
+##########################################################################
+0. Windows Update:
+Q: Puis-je installer les mises à jour Microsoft après l'utilisation de ce programme?
+R: Quand ils seront disponibles.
+
+1. activation permanente:
+Q: Ce programme rend les produits Microsoft activés de façon permanente?
+R: Les produits peuvent être activés avec KMS. il peut vérifier la réactivation chaque minute, alors. Les produits et les OEM Antiwpa sont Activés pour toujours.
+
+2. Avancer le calendrier:
+Q: Si j'avance le calendrier de 180 jours, le produit est inactif, pourquoi?
+R: La réactivation se produit chaque minute. Vous devez attendre une minute après le changement de la date.
+
+3. Virus:
+Q: Mon antivirus semble fou!
+R: Si vous avez téléchargé le fichier à partir d'un autre site, nous ne savons pas ce qu'ils auraient pu faire de plus. Les fichiers téléchargés à partir de notre site Web sont tout à fait sains.
+
+4. on-line / off-line:
+Q: Ai-je besoin d'une connexion Internet pour utiliser le programme?
+R: Non, mais ayant une connexion active vous pêrmet d'accéder aux mises à jour automatiques et les communications.
+
+5. Le produit n'est pas actif:
+Q: J'ai utilisé le programme, mais mon produit n'est pas actif, pourquoi?
+R: Les raisons peuvent être variées, pour plus de simplicité, si vous ne pouvez pas activer votre produit, vous devriez utiliser une machine fraichement installée (formatée) et l'un des produits compatibles énumérées ci-dessus.
+
+6. Langue:
+Q: Quelles sont les langues prises en charge?
+R: Toutes les langues sont supportées! L'interface (GUI) a maintenant quelques langues, mais l'interface n'affecte pas le fonctionnement correct du loader.
+
+
+
+##########################################################################
+# 09 - Notes Légales
+##########################################################################
+DISCLAIMER: Re-Loader, bureau de pré-activation Pack, pack OEM Logo.
+
+Ce programme n'a pas été créé de sorte que «l'utilisateur final» peut bénéficier
+sans posséder les permis nécessaires et originale de son logiciel.
+R @ 1n, cependant, estime que tous devraient avoir la possibilité de tester et d'avoir
+une sauvegarde de vos licences.
+
+En outre, il ne justifie en aucune façon la diffusion de ce programme,
+en d'autres termes ne justifient pas la propagation de tout site Web, ou P2P
+dans tout autre lieu public.
+Je demande que ces rejets ne sont pas du tout populaire.
+
+R @ 1n Je dois rien à voir avec la distribution de ce
+programme, tout cela se fait par des tiers.
+Selon les lois qui appartiennent au pays où je réside,
+il est pas de ma responsabilité ce que les autres décident de faire avec
+ces versions. Cependant, que ce soit dit clairement:
+
+"PAS tolérer en aucune manière la vente ou la distribution
+de ce programme, cela n'a jamais été mon intention. "
+
+R @ 1n assume aucune responsabilité pour toute perte de données
+ou toutes les erreurs qui peuvent se produire dans l'utilisation de ces programmes.
+Gardez à l'esprit que vous utilisez une solution tierce.
+
+Notez que l'utilisation de ces logiciels sont légaux dans la plupart
+les pays en dehors des États-Unis, si et seulement si vous avez un
+copie intégrale du programme - de sorte que vous pouvez utiliser ces programmes
+à des fins de sauvegarde, et seulement pour eux. Il reste à voir comment
+vous êtes frappé d'accords de licence avec le (CLUF).
+Ils ne peuvent pas remplacer les lois nationales, en souvenir.
+
+Selon les membres "DMCA Act» des États-Unis, vous ne devez pas
+droits de contourner une protection contre la copie. Attention, si
+utilisent ce logiciel d'une manière illégale, la peine maximale
+que vous avez, vous êtes égal à celui que vous souhaitez voler le logiciel shrinkwrapped
+dans un centre commercial. Bien que le fonctionnement de base de R @ 1n ne réside pas
+aux États-Unis, et donc je ne suis pas lié à
+Les lois des États-Unis que:
+
+* Aucun Theft Act électronique
+* Digital Millenium Copyright Act
+* Le Patriot Act
+* "D'autres lois des États-Unis"
+
+Vous devez toujours acheter le logiciel que vous utilisez, ou à la place,
+utiliser des programmes open-source.
+
+Ce logiciel n'encourage pas le piratage, qui est un acte illégal,
+ainsi comme étant un manque de respect envers ceux qui consacrent leur temps et d'efforts
+au développement d'applications.
+
+Je ne suppose pas de responsabilité pour une utilisation inappropriée,
+qui n'est pas dédiée à une vision d'étudier éducatif ou instructif.
+Avec ce que je peux vous dire que je me consacre à pas le piratage en aucune façon,
+Je me soucie seulement de partager et d'enquêter sur toutes les formes de système et de l'évasion.
+
+Je suis en désaccord, sous quelque forme, avec le piratage de logiciels et NON
+responsable d'une utilisation inappropriée ou illégale eventuelle.
+
+
+
+##########################################################################
+# 10 - Merci
+##########################################################################
+Merci: QAD, xinso, Hotbird64, nonosense, Nosferati87, Mikmik38, Cynecx, heldigard, Daz, Alphawaves, Nummer pour tous vos efforts!
+
+Merci également à toutes les personnes qui ont soutenu le développement sous toutes ses formes:
+
+- fullstuff
+- Miky70
+- Zanna
+
+Merci pour la traduction:
+
+- azroach (English)
+- CraftByte (Slovenian)
+- Behdad Boujari (Persian)
+- roonney (Portuguese)
+- vanhoivo (Vietnamese)
+- Ripdevil (Deutsch)
+- BL3D1 (Albanian)
+- alnaloty (Arabic)
+- Phobos (Russian)
+- jordan4x (French)
+- WebMan (Romanian)
+- Yaron.S (Hebrew)
+- zihan (Chinese)
+- agasoft (Serbian)
+- mireado (Korean)
+- GlgApr (Indonesian)
+- Ercan KOÇAK (Turkish)
+- -=4lfre1re=- (Spanish)
+
+Merci au staff MDL: http://forums.mydigitallife.info/
+Merci aux membres sur Twitter: RainReLoader
+
+Merci beaucoup.
+- Sur Twitter: RainReLoader
